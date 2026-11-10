@@ -22,7 +22,7 @@ fun ClienteDashboardScreen(
 ) {
     var selectedWordIndex by remember { mutableStateOf(0) }
     var fontScale by remember { mutableStateOf(18.sp) }
-    var audioStatusMessage by remember { mutableStateOf("Toca 'Escuchar' para oír la palabra claramente.") }
+    var audioStatusMessage by remember { mutableStateOf("Toca 'Escuchar' para oír la palabra de forma clara.") }
 
     val palabrasPractica = listOf(
         Pair("SOL", "S - O - L (Objeto brillante en el cielo)"),
